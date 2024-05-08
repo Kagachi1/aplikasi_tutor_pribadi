@@ -11,8 +11,8 @@ void main() {
     ));
 
     // Verify that MenuPage displays list of subjects
-    expect(find.text('Matematika'), findsOneWidget);
-    expect(find.text('Fisika'), findsOneWidget);
+    expect(find.text('Pemrograman Mobile'), findsOneWidget);
+    expect(find.text('Metodologi Penelitian'), findsOneWidget);
     // Add more expectations for other subjects as needed
   });
 }

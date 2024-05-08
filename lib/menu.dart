@@ -2,11 +2,8 @@ import 'package:flutter/material.dart';
 
 class MenuPage extends StatelessWidget {
   final List<String> mataKuliah = [
-    'Matematika',
-    'Fisika',
-    'Kimia',
-    'Biologi',
-    'Bahasa Inggris',
+    'Pemrograman Mobile',
+    'Metodologi Penelitian',
     // tambahkan mata kuliah lainnya sesuai kebutuhan
   ];
 
