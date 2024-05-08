@@ -17,9 +17,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => LoginPage(),
-        '/menu': (context) => MenuPage(),
-        // tambahkan rute lainnya di sini
+        '/login': (context) => LoginPage(), // Rute untuk halaman login
+        '/menu': (context) => MenuPage(), // Rute untuk halaman menu
       },
     );
   }

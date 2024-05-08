@@ -8,7 +8,7 @@ class LoginPage extends StatelessWidget {
         title: Text('Login'),
       ),
       body: Center(
-        child: RaisedButton(
+        child: ElevatedButton(
           child: Text('Login'),
           onPressed: () {
             Navigator.pushReplacementNamed(context, '/menu');
