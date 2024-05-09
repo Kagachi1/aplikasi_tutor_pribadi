@@ -30,7 +30,7 @@ class MenuPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Menu Utama'),
+        title: Text('Aplikasi Tutoring Pribadi'),
         backgroundColor: Colors.blue,
       ),
       body: ListView.builder(
