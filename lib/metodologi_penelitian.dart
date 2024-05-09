@@ -38,9 +38,9 @@ class MetodologiPenelitianPage extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Nama Dosen: Dr. John Doe"),
-                            Text("Nomor WA: +123456789"),
-                            Text("Ketersediaan: Senin - Jumat, 08.00 - 17.00"),
+                            Text("Nama Dosen: Joni Maulindar, S.Kom, M.Eng"),
+                            Text("Nomor WA: +62-1234-56789"),
+                            Text("Ketersediaan: Senin-Rabu, 12.00-16.00"),
                           ],
                         ),
                       ),
