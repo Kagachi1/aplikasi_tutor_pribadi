@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class PemrogramanMobilePage extends StatelessWidget {
+class Manajemen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pemrograman Mobile'),
+        title: Text('Manajemen'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -15,7 +15,7 @@ class PemrogramanMobilePage extends StatelessWidget {
             Expanded(
               child: SingleChildScrollView(
                 child: Text(
-                  'Pemrograman mobile dalam konteks teknik informatika adalah proses pengembangan perangkat lunak untuk perangkat mobile seperti ponsel pintar (smartphone) dan tablet. Ini melibatkan penggunaan berbagai bahasa pemrograman, platform, dan kerangka kerja (framework) untuk membuat aplikasi yang dapat dijalankan di sistem operasi mobile seperti Android dan iOS.\n\n\nPenggunaan perangkat mobile seperti ponsel pintar dan tablet terus meningkat secara signifikan. Ini berarti ada permintaan yang tinggi untuk aplikasi mobile yang dapat memenuhi kebutuhan pengguna dalam berbagai bidang, mulai dari hiburan hingga produktivitas, kesehatan, keuangan, dan banyak lagi. Pemrograman mobile memungkinkan mahasiswa teknik informatika untuk memahami dan berkontribusi pada industri yang berkembang pesat ini.\n\n\nBerikut adalah beberapa tutorial/pembelajaran yang dapat dipilih mahasiswa untuk mata kuliah Pemrograman Mobile:\n(1) Apa saja yang diperlukan untuk mata kuliah Pemrograman Mobile\nTutorial atau pembelajaran tentang apa saja yang diperlukan dalam mata kuliah Pemrograman Mobile, baik dari segi hardware maupun software.\n\n(2) Tutorial Penginstallan Flutter\nTutorial atau arahan dari dosen matkul kepada mahasiswa terkait cara penginstallan flutter beserta SDK-nya serta beberapa ekstensi yang diperlukan.',
+                  'Manajemen adalah proses merencanakan, mengorganisasi, mengarahkan, dan mengontrol sumber daya (seperti manusia, uang, waktu, dan teknologi) untuk mencapai tujuan yang telah ditetapkan dalam suatu organisasi atau entitas. Ini melibatkan pengambilan keputusan, pengaturan, koordinasi, dan pengawasan dari berbagai aspek kegiatan organisasi untuk mencapai efisiensi dan efektivitas dalam mencapai tujuan yang telah ditentukan.',
                   style: TextStyle(
                     fontSize: 20,
                     fontFamily: 'Nunito',
